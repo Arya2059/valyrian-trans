@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+:root {
+  --primary-color: #3e5e1a;
+  --secondary-color: #ff9f45;
+  --dark-grey: #231f20;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--white);
+  font-family: 'Poor Story', cursive;
+  margin: 0rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  height: 4rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.navigation .navImg {
+  text-align: center;
+  height: 6rem;
+  object-fit: contain;
+}
+
+.input {
+  text-align: center;
+  display: block;
+}
+.heading {
+  font-size: 30px;
+  text-align: center;
+  color: var(--dark-grey);
+  margin: 0.5rem;
+}
+
+.heading2 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--dark-grey);
+  margin: 0.5rem;
+}
+
+.textArea {
+  width: 30rem;
+  min-height: 5rem;
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  margin: 1rem 3rem 2rem 3rem;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.btn-translate {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 8px;
+  font-family: "Poor story", cursive;
+  color: var(--primary-color);
+}
+
+.btn-translate:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.output {
+  width: 30rem;
+  min-height: 6rem;
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.footer-heading {
+  font-size: 30px;
+  text-align: center;
+  color: var(--white);
+}
+
+.footer-content {
+  margin: 1rem 0;
+}
+
+.footer-container {
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+  color: var(--white);
+  width: 60%;
+}
