@@ -10,7 +10,7 @@ btnTranslate.addEventListener("click", clickEventHandler);
 
 function translate(inputText) {
   fetch(
-    `https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json?text=${inputText}`
+    `https://api.funtranslations.com/translate/valyrian.json?text=${inputText}`
   )
     .then(function (response) {
       return response.json();
