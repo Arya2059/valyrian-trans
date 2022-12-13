@@ -1,8 +1,8 @@
-# Speak Yodish
+# Speak Valyian
 
 ## About
 
-This is a fun translation app where the user can translate English language to Yodish Language!
+This is a fun translation app where the user can translate English language to Valyrian Language!
 
 ## Tech used
 
